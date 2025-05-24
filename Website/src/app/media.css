@@ -1,0 +1,197 @@
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+    .banner_bottom {
+        gap: 20px;
+    }
+
+    .febInner {
+        width: 90%;
+    }
+    .review_text {
+        padding: 20px !important;
+    }
+
+    .review_img {
+        padding: 0px;
+    }
+
+    .review_img>img {
+        width: 100%;
+    }
+
+    .inpire_c1 {
+        padding: 26px !important;
+    }
+
+    .inspire_heading {
+        margin-top: 15px;
+    }
+
+    .inpire_img {
+        height: 200px;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .febInner {
+        width: 90%;
+    }
+    .review_text {
+        padding: 20px !important;
+    }
+
+    .review_img {
+        padding: 0px;
+    }
+
+    .review_img>img {
+        width: 100%;
+    }
+
+    .inpire_c1 {
+        padding: 56px !important;
+    }
+
+    .inpire_c1 {
+        padding: 26px !important;
+    }
+
+    .inspire_heading {
+        margin-top: 15px;
+    }
+
+    .inpire_img {
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 992px) {
+    .febInner {
+        width: 90%;
+    }
+
+    .review_text {
+        padding: 20px !important;
+    }
+
+    .review_img {
+        padding: 0px;
+    }
+
+    .review_img>img {
+        width: 100%;
+    }
+
+    .inpire_c1 {
+        padding: 26px !important;
+    }
+
+    .inspire_heading {
+        margin-top: 15px;
+    }
+
+    .inpire_img {
+        height: 280px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .banner_bottom_row {
+        font-size: 12px;
+        padding: 0px;
+        gap: 5px;
+    }
+
+    .inspire_heading {
+        margin-top: 55px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .banner_bottom_row {
+        padding: 0px;
+    }
+}
+
+.offcanvas {
+    width: 553px !important;
+    background-color: #FFFFFF !important;
+}
+
+.shoppingIcon {
+    background-color: transparent;
+    border: none;
+}
+
+.offacnvas_row {
+    background-color: #F9F9F9;
+}
+
+.sliderImg {
+    width: 25%;
+    height: 127px !important;
+}
+
+.SliderText {
+    width: 75%;
+}
+
+.slideTextrow1 {
+    display: flex;
+    font-size: 14px;
+}
+
+.slideTextrow1p1 {
+    width: 70%;
+}
+
+.SliderText select {
+    width: 130px;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+.SliderTextbtn>button {
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: transparent;
+}
+
+.checkoutbtn {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 20px;
+    background-color: gray;
+}
+
+.offcanvasbottom {
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+}
+
+.heart {
+    height: 100vh !important;
+    width: 130%;
+    overflow-y: scroll;
+    background-color: #F9F9F9;
+}
+
+.formData {
+    margin: 0px -16px;
+    padding: 0px 16px;
+}
+
+.modalR {
+    width: 28%;
+    font-size: 13px;
+}
+
+.modalRimg>img {
+    width: 26px;
+    height: 24px;
+}
+
+.modalFormText {
+    font-size: 14px;
+}
