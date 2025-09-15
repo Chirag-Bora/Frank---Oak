@@ -26,15 +26,16 @@ const single = multer({ storage: storage }).single('image');
 const multiple = multer({ storage: storage }).array('images');
 const none = multer({ storage: storage }).none();
 
+
 module.exports = server => {
 
-        router.post('/login',none,login);
-        router.post('/register',none,register);
-        router.post('/view-profile',none,validationMiddleware,viewProfile);
-        router.post('/update-profile',single,validationMiddleware,updateProfile);
-        router.post('/change-password',none,validationMiddleware,changePassword);
-        router.post('/forget-password',none,forgetPassword);
-        router.post('/reset-password',none, resetPassword);
+    router.post('/login',none,login);
+    router.post('/register',none,register);
+    router.post('/view-profile',none,validationMiddleware,viewProfile);
+    router.post('/update-profile',single,validationMiddleware,updateProfile);
+    router.post('/change-password',none,validationMiddleware,changePassword);
+    router.post('/forget-password',none,forgetPassword);
+    router.post('/reset-password',none, resetPassword);
 
     server.use('/api/website/user', router);
 }
